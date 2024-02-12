@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <h6>Formulario de calculo de Km a m</h6>
+    <div class="form-control">
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Convertir de Km a m:</label>
+                </div>
+                <div class="col-auto"> 
+                    <input type="number" id="txtN1" class="form-control" placeholder="(1km = 1000m)"/>
+                </div>
+            </div>
+        <div>
+        <br>        
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Resultado:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="txtResultado1" class="form-control" placeholder="Resultado" readonly/>
+                </div>
+            </div>
+        <button type="button" class="btn btn-primary" onclick="multiplicar()">Multiplicar</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar()">Limpiar</button>
+    </div>
+    <div class="row-12"></div>
+    </div>
+    <h6>Formulario de calculo de m a centimetros</h6>
+    <div class="form-control">
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Convertir de m a cm:</label>
+                </div>
+                <div class="col-auto"> 
+                    <input type="number" id="txtN2" class="form-control" placeholder="(1m = 100cm)"/>
+                </div>
+            </div>
+        <div>
+        <br>        
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Resultado:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="txtResultado2" class="form-control" placeholder="Resultado2" readonly/>
+                </div>
+            </div>
+        <button type="button" class="btn btn-primary" onclick="multiplicar2()">Multiplicar</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar2()">Limpiar</button>
+    </div>
+    <div class="row-12"></div>
+    </div>
+    <h6>Formulario de calculo ft a pulg</h6>
+    <div class="form-control">
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Convertir de m a cm:</label>
+                </div>
+                <div class="col-auto"> 
+                    <input type="number" id="txtN3" class="form-control" placeholder="(1ft = 12pulg)"/>
+                </div>
+            </div>
+        <div>
+        <br>        
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Resultado:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="txtResultado3" class="form-control" placeholder="Resultado3" readonly/>
+                </div>
+            </div>
+        <button type="button" class="btn btn-primary" onclick="multiplicar3()">Multiplicar</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar3()">Limpiar</button>
+    </div>
+    <div class="row-12"></div>
+    </div>
+    <h6>Formulario de calculo de yarda a pulg</h6>
+    <div class="form-control">
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Convertir de yarda a pulg:</label>
+                </div>
+                <div class="col-auto"> 
+                    <input type="number" id="txtN4" class="form-control" placeholder="(1yarda = 36pulg)"/>
+                </div>
+            </div>
+        <div>
+        <br>        
+        <div class="mb-3">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="for-label">Resultado:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="txtResultado4" class="form-control" placeholder="Resultado4" readonly/>
+                </div>
+            </div>
+        <button type="button" class="btn btn-primary" onclick="multiplicar4()">Multiplicar</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar4()">Limpiar</button>
+    </div>
+    <div class="row-12"></div>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
